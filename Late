@@ -1,6 +1,6 @@
 var guess = prompt('Guess a number.');
 var secondGuess = prompt('Guess another one.');
-if(guess >= secondGuess){
+if(guess > secondGuess){
 console.log(guess);
 } else {
 console.log(secondGuess);
